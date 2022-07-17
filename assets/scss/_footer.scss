@@ -1,0 +1,143 @@
+footer {
+    background: #1E1E1B;
+    padding: 50px 0;
+    .footer-top {
+        border-bottom: 1px solid #5F5F5F;
+        padding: 0 0 50px;
+        display: flex;
+        justify-content: space-between;
+        .footer-top_left {
+            max-width: 678px;
+            width: 100%;
+            h2 {
+                font-size: 28px;
+                color: $White;
+                font-family: SFPRODISPLAYBOLD;
+                
+            }
+            p {
+                font-size: 18px;
+                color: $White;
+                font-family: SFPRODISPLAYREGULAR;
+            }
+            .icons {
+                a {
+                    margin-left: 21px;
+                    img {
+
+                    }
+                }
+            }
+        }
+        .footer-top_right {
+            max-width: 585px;
+            width: 100%;
+            form {
+              .input-item  {
+                position: relative;
+                input[type=email] {
+                    height: 60px;
+                    border-radius: 50px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    margin-bottom: 20px;
+                    background: #FFFFFF;
+                    padding-left: 30px;
+                    font-family: SFPRODISPLAYREGULAR;
+                    font-size: 16px;
+                    &::placeholder {
+                        color: $LightGrey; 
+                        font-size: 16px;
+                    }
+                }
+                button {
+                    border: 1px solid;
+                    border-radius: 100px;
+                    font-size: 16px;
+                    color: #1E1E1B;
+                    padding: 10px 30px;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translate(-10%,-73%);
+                    background-color: $White;
+                }
+              }
+              input[type=checkbox] {
+                width: 20px;
+                height: 20px;
+              }
+              span {
+                color: $White;
+                font-size: 15px;
+                font-family: SFPRODISPLAYREGULAR;
+                margin-left: 10px;
+                a {
+                    font-family: SFPRODISPLAYBOLD;
+                    color: $White;
+                }
+              }
+            }
+        }
+    }
+    .footer-middle {
+        border-bottom: 1px solid #5F5F5F;
+        margin-top: 50px;
+        padding-bottom: 88px;
+        .navbars {
+            display: flex;
+            justify-content: space-between;
+            nav {
+                h3 {
+                    color: $White;
+                    font-size: 18px;
+                    font-family: SFPRODISPLAYREGULAR;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    li {
+                        &:not(:last-child) {
+                            margin-bottom: 20px;
+                        }
+                        a {
+                            color: $Grey;
+                            font-family: SFPRODISPLAYREGULAR;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .informations {
+                h3 {
+                    color: $White;
+                    font-size: 18px;
+                    font-family: SFPRODISPLAYREGULAR;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    li {
+                        color: $Grey;
+                        font-size: 15px;
+                        &:not(:last-child) {
+                            margin-bottom: 20px;
+                        }
+                        a {
+                            color: $Grey;
+                            font-family: SFPRODISPLAYREGULAR;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        p {
+            font-size: 15px;
+            color: $White;
+            font-family: SFPRODISPLAYREGULAR;
+            margin-top: 40px;
+        }
+    }
+}

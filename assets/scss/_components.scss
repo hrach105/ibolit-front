@@ -1,0 +1,113 @@
+
+// product card
+
+
+.product-card {
+    max-width: 336px;
+    width: 100%;
+    padding: 60px 20px 20px 30px;
+    border-radius: 10px;
+    background-color: $White;
+    .product-image {
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    .colors {
+        display: flex;
+        margin-top: 23px;
+        margin-bottom: 10px;
+        span {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: block;
+            &:nth-child(1) {
+                background-color: #F5F4F0;
+            }
+            &:nth-child(2) {
+                background-color: #3C3D3A;
+                margin-left: 5px;
+            }
+            &:nth-child(3) {
+                background-color: #AFBFAB;
+                margin-left: 5px;
+            }
+            &:nth-child(4) {
+                background-color: #91A6BB;
+                margin-left: 5px;
+            }
+        }
+    }
+    .product-content {
+        .product-title {
+            font-size: 18px;
+            font-family: SFPRODISPLAYREGULAR;
+            color: $Black;
+            margin-bottom: 10px;
+        }
+        .product-plans {
+            margin-bottom: 20px;
+            span {
+                padding: 4px 10px;
+                font-size: 13px;
+                color: $White;
+                font-family: SFPRODISPLAYBOLD;
+                border-radius: 5px;
+                &:nth-child(1) {
+                    background-color: $LightBlue;
+                }
+                &:nth-child(2) {
+                    background-color: $LightBlue;
+                    margin-left: 5px;
+                    background-color: $Red;
+                }
+                &:nth-child(3) {
+                    background-color: $Yellow;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .saled-prices {
+            margin-bottom: 10px;
+            .old-price {
+                font-size: 15px;
+                font-family: SFPRODISPLAYREGULAR;
+                color: $LightGrey;
+                text-decoration: line-through;
+            }
+            .how-minus {
+                background-color: #E9EDF7;
+                padding: 2px 8px;
+                border-radius: 50px;
+                margin-left: 10px;
+            }
+        }
+        .real-price {
+            display: flex;
+            align-items: center;
+            .new-price {
+                font-size: 28px;
+                font-family: SFPRODISPLAYBOLD;
+                color: $Black;
+            }
+            span{
+                &:nth-child(2) {
+                    font-family: SFPRODISPLAYREGULAR;
+                    color: $Black;
+                    margin-left: 33px;
+                    font-size: 12px;
+                }
+            }
+            img {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+// product card

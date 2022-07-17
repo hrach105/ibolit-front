@@ -1,0 +1,70 @@
+.banner {
+    width: 100%;
+    min-height: 650px;
+    height: auto;
+    background-color: $Black;
+    .banner-slider {
+        position: relative;
+        .slick-prev {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(-50%);
+            z-index: 1;
+        }
+        .slick-next {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translate(-50%);
+            z-index: 1;
+        }
+        .slider-item {
+            .banner-prod-desc {
+                text-align: center;
+                padding-top: 30px;
+                h2 {
+                    font-size: 28px;
+                    color: $White;
+                    font-family: SFPRODISPLAYBOLD;
+                }
+                p {
+                    font-size: 48px;
+                    color: $White;
+                }
+                a {
+                    color: white;
+                    font-family: SFPRODISPLAYREGULAR;
+                    border: 1px solid;
+                    padding: 10px 30px;
+                    border-radius: 20px;
+                    display: inline-block;
+                }
+            }
+            img {
+                margin: auto;
+            }
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 40px;
+            li {
+                background-color: $LightGrey;
+                width: 75px;
+                height: 4px;
+                border-radius: 5px;
+                &:not(:first-child) {
+                    margin-left: 15px;
+                }
+                &.slick-active {
+                    background-color: $LightBlue;
+                }
+                button {
+                    font-size: 0;
+                  
+                }
+            }
+        }
+    }
+}
