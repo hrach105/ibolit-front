@@ -1,7 +1,5 @@
 
 // product card
-
-
 .product-card {
     max-width: 336px;
     width: 100%;
@@ -108,6 +106,139 @@
         }
     }
 }
-
-
 // product card
+.page-title {
+    font-size: 48px;
+    font-family: SFPRODISPLAYBOLD;
+    color: $DarkGrey;
+    margin-bottom: 40px;
+}
+//slider
+.slider {
+    position: relative;
+
+    .slick-left-arrow {
+        background: #00000080;
+        background-blend-mode: color;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -20px;
+        .a-left{
+
+            transform: rotate(-180deg);
+        }
+    }
+    .slick-right-arrow {
+        background: #00000080;
+        background-blend-mode: color;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: -20px;
+    }
+}
+//slider
+
+
+//brand card
+.brand-card {
+    padding:42px 68px;
+    border-radius: 10px;
+    background-color: $White;
+    max-width: 336px;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px 12px 0;
+}
+//brand card
+
+
+//device-repair-banner
+.device-repair {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.device-repair-banner {
+    width: 100%;
+    min-height: 347px;
+    height: auto;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    .banner-content {
+        margin-left: 89px;
+        p {
+            font-size: 18px;
+            font-family: SFPRODISPLAYBOLD;
+            color: $White;
+        }
+        h2 {
+            margin: 10px 0 20px;
+            font-family: SFPRODISPLAYBOLD;
+            color: $White;
+            font-size: 48px;
+        }
+        .banner-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                padding: 10px 30px;
+                color: $White;
+                font-family: SFPRODISPLAYREGULAR;
+                font-size: 16px;
+                border-radius: 100px;
+                &:first-child {
+                    background-color: $LightBlue;
+                }
+                &:last-child {
+                    border:1px solid;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+//device-repair-banner
+.best-offers {
+    margin-top: 100px;
+}
+.breadcrumb {
+    margin: 30px 0;
+    .to-main-page {
+        color: $Black;
+        font-family: SFPRODISPLAYBOLD;
+
+    }
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+.breadcrumb-item  {
+    &.active {
+        color: $LightGrey;
+
+    }
+}

@@ -1,5 +1,5 @@
 footer {
-    background: #1E1E1B;
+    background: $DarkGrey;
     padding: 50px 0;
     .footer-top {
         border-bottom: 1px solid #5F5F5F;
@@ -55,7 +55,7 @@ footer {
                     border: 1px solid;
                     border-radius: 100px;
                     font-size: 16px;
-                    color: #1E1E1B;
+                    color: $DarkGrey;
                     padding: 10px 30px;
                     position: absolute;
                     right: 0;
