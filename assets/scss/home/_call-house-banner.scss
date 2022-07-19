@@ -1,0 +1,50 @@
+.call-house-banner {
+  width: 100%;
+  min-height: 528px;
+  height: auto;
+  background: $White;
+
+  .banner-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+  }
+  .call-house-banner_content {
+    h2 {
+      font-family: SFPRODISPLAYBOLD;
+      font-size: 18px;
+      color: $DarkGrey;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 48px;
+      font-family: SFPRODISPLAYBOLD;
+      margin: 10px 0;
+      color: $DarkGrey;
+    }
+    p {
+      font-size: 18px;
+      font-family: SFPRODISPLAYREGULAR;
+      color: $DarkGrey;
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 16px;
+      font-family: SFPRODISPLAYREGULAR;
+      padding: 10px 30px;
+      border: 1px solid;
+      color: $DarkGrey;
+      border-radius: 100px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+  }
+  .call-house-banner_img {
+    img {
+      width: 100%;
+    }
+  }
+}

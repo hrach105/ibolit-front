@@ -1,0 +1,21 @@
+.all-prods {
+  margin: 100px 0;
+  .item {
+    width: 100%;
+    height: 200px;
+    background: red;
+    margin-bottom: 10px;
+    &.accesories {
+      max-width: 336px;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+

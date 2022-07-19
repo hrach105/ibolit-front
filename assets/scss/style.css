@@ -350,6 +350,53 @@ footer {
   color: #1E1E1B;
   margin-bottom: 40px; }
 
+.slick-left-arrow {
+  background: #00000080;
+  background-blend-mode: color;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: -20px; }
+  .slick-left-arrow .a-left {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg); }
+
+.slick-right-arrow {
+  background: #00000080;
+  background-blend-mode: color;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: -20px; }
+
 .slider {
   position: relative; }
   .slider .slick-left-arrow {
@@ -397,6 +444,9 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     right: -20px; }
+
+.brand-slider-parent {
+  margin: 100px 0; }
 
 .brand-card {
   padding: 42px 68px;
@@ -542,5 +592,61 @@ footer {
           background-color: #00B1EB; }
         .banner .banner-slider .slick-dots li button {
           font-size: 0; }
+
+.all-prods {
+  margin: 100px 0; }
+  .all-prods .item {
+    width: 100%;
+    height: 200px;
+    background: red;
+    margin-bottom: 10px; }
+    .all-prods .item.accesories {
+      max-width: 336px;
+      width: 100%; }
+
+.call-house-banner {
+  width: 100%;
+  min-height: 528px;
+  height: auto;
+  background: #fff; }
+  .call-house-banner .banner-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto; }
+  .call-house-banner .call-house-banner_content h2 {
+    font-family: SFPRODISPLAYBOLD;
+    font-size: 18px;
+    color: #1E1E1B;
+    margin-bottom: 0; }
+  .call-house-banner .call-house-banner_content h3 {
+    font-size: 48px;
+    font-family: SFPRODISPLAYBOLD;
+    margin: 10px 0;
+    color: #1E1E1B; }
+  .call-house-banner .call-house-banner_content p {
+    font-size: 18px;
+    font-family: SFPRODISPLAYREGULAR;
+    color: #1E1E1B;
+    margin-bottom: 0; }
+  .call-house-banner .call-house-banner_content a {
+    font-size: 16px;
+    font-family: SFPRODISPLAYREGULAR;
+    padding: 10px 30px;
+    border: 1px solid;
+    color: #1E1E1B;
+    border-radius: 100px;
+    margin-top: 20px;
+    display: inline-block; }
+  .call-house-banner .call-house-banner_img img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
