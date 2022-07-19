@@ -27,3 +27,12 @@ $('.brand-slider').slick({
     prevArrow:"<div class='slick-left-arrow'><img class='a-left control-c arrow prev slick-prev' src='../../assets/img/arrow.png'></div>",
     nextArrow:"<div class='slick-right-arrow'><img class='a-right control-c arrow next slick-next' src='../../assets/img/arrow.png''></div>"
 });
+
+$( document ).ready(function() {
+   $('.dropdown-toggle').click(function (){
+        $('.drop-down-content').slideToggle()
+   })
+})
+
+
+
