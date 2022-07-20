@@ -151,7 +151,7 @@
 }
 .slider {
     position: relative;
-
+    margin-bottom: 100px;
     .slick-left-arrow {
         background: #00000080;
         background-blend-mode: color;
@@ -209,9 +209,7 @@
 
 
 //device-repair-banner
-.device-repair {
-    
-}
+
 .device-repair-banner {
     width: 100%;
     min-height: 347px;
@@ -339,9 +337,36 @@
 .breadcrumb-item+.breadcrumb-item::before {
     content: ">";
 }
-.breadcrumb-item  {
-    &.active {
-        color: $LightGrey;
-
+li {
+    &.breadcrumb-item  {
+        &:not(:last-child) {
+            color: $Black !important;
+        }
+        &:last-child {
+            color: #C6C6C6;
+        }
     }
 }
+
+
+
+.pagination {
+    display: inline-block;
+    a {
+        color: $Black;
+        font-size: 18px;
+        font-family: SFPRODISPLAYREGULAR;
+        border-radius: 50px;
+        width: 24px;
+        display: inline-flex;
+        justify-content: center;
+        height: 24px;
+        margin-left: 17px;
+        &.active {
+            background-color: $LightBlue;
+            color: $White;
+
+        }
+    }
+  }
+  

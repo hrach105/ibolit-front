@@ -1,0 +1,140 @@
+.post-single {
+    .post-img {
+        margin-bottom: 40px;
+        max-width: 100%;
+        img {   
+            width: 100%;
+            height: 593px;
+            object-fit: cover;
+        }
+    }
+    .post-content {
+        padding: 40px;
+        background-color: $White;
+        .post-content-item {
+            margin-bottom: 40px;
+            p {
+                margin-bottom: 40px;
+                font-size: 18px;
+                font-family: SFPRODISPLAYREGULAR;
+            }
+            img {
+                width: 100%;
+            }
+            h3 {
+                color: $DarkGrey;
+                font-size: 28px;
+                font-family: SFPRODISPLAYBOLD;
+            }
+        }
+        h2 {
+            font-size: 28px;
+            margin: 40px 0;
+        }
+        .share-socials {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            p {
+                margin-bottom: 0;
+                margin-right: 15px;
+                font-size: 15px;
+                font-family: SFPRODISPLAYREGULAR;
+                color: $DarkGrey;
+            }
+            .social-images {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .comments {
+        margin-top: 40px;
+        padding: 40px;
+        background-color: $White;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        h2 {
+            color: $DarkGrey; 
+            font-size: 28px;
+            font-family: SFPRODISPLAYBOLD;
+            margin-bottom: 30px;
+        }
+        .comments-text {
+            position: relative;
+            textarea {
+                width: 100%;
+                background: #F6F6F6;
+                border-radius: 10px;
+                border: none;
+                height: 120px;
+                outline: none;
+                padding-left: 20px;
+                padding-top: 20px;
+                &::placeholder {
+                    color: #C6C6C6;
+                    font-size: 14px;
+                }
+            }
+            button[type=submit] {
+                position: absolute;
+                left: 20px;
+                bottom: 14px;
+                border: none;
+                background: none;
+                color: $DarkGrey;
+                font-family: SFPRODISPLAYBOLD;
+                font-size: 13px;
+            }
+        }
+        .author {
+            margin-top: 20px;
+            display: flex;
+            img {
+                margin-right: 10px;
+                width: 40px;
+                height: 40px;
+            }
+            h4 {
+                font-size: 15px;
+                font-family: SFPRODISPLAYREGULAR;
+                margin-bottom: 5px;
+            }
+            span {
+                color: #C6C6C6;
+                font-size: 13px;
+                font-family: SFPRODISPLAYREGULAR;
+            }
+       }
+       .comment-content {
+        margin-top: 10px;
+        align-items: center;
+        p {
+            color: $Black;
+            font-size: 14px;
+            font-family: SFPRODISPLAYREGULAR;
+            margin-top: 10px;
+            span {
+                font-family: SFPRODISPLAYBOLD;
+            }
+        }
+            .replay {
+                display: flex;
+                align-items: center;
+                .author {
+                    margin-left: 10px;
+                }
+            }
+            .replay-btn {
+                background:none;
+                border: none;
+                font-family: SFPRODISPLAYBOLD;
+                font-size: 13px;
+
+            }
+       }
+    }
+}

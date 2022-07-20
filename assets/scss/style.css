@@ -399,7 +399,8 @@ footer {
   right: -20px; }
 
 .slider {
-  position: relative; }
+  position: relative;
+  margin-bottom: 100px; }
   .slider .slick-left-arrow {
     background: #00000080;
     background-blend-mode: color;
@@ -598,8 +599,30 @@ footer {
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">"; }
 
-.breadcrumb-item.active {
+li.breadcrumb-item:not(:last-child) {
+  color: #000000 !important; }
+li.breadcrumb-item:last-child {
   color: #C6C6C6; }
+
+.pagination {
+  display: inline-block; }
+  .pagination a {
+    color: #000000;
+    font-size: 18px;
+    font-family: SFPRODISPLAYREGULAR;
+    border-radius: 50px;
+    width: 24px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 24px;
+    margin-left: 17px; }
+    .pagination a.active {
+      background-color: #00B1EB;
+      color: #fff; }
 
 .banner {
   width: 100%;
@@ -888,5 +911,217 @@ v
     margin-top: 30px; }
 .credit-page .device-repair-banner {
   margin-top: 0; }
+
+.about-payment-block {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 15px 100px; }
+  .about-payment-block h2 {
+    color: #1E1E1B;
+    font-family: SFPRODISPLAYREGULAR;
+    font-size: 18px;
+    margin-bottom: 40px; }
+  .about-payment-block .description .desc-item {
+    margin-bottom: 40px; }
+    .about-payment-block .description .desc-item h3 {
+      font-size: 28px;
+      font-family: SFPRODISPLAYBOLD;
+      margin-bottom: 20px;
+      color: #1E1E1B; }
+    .about-payment-block .description .desc-item p {
+      font-size: 18px;
+      font-family: SFPRODISPLAYREGULAR;
+      color: #1E1E1B;
+      margin-bottom: 0; }
+      .about-payment-block .description .desc-item p a {
+        color: #00B1EB; }
+    .about-payment-block .description .desc-item .bank-cards {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .about-payment-block .description .desc-item .bank-cards img {
+        margin-left: 25px; }
+
+.tabs ul li:not(:first-child) {
+  margin-left: 50px; }
+.tabs ul li button {
+  background: none !important;
+  font-size: 28px;
+  font-family: SFPRODISPLAYBOLD;
+  color: #C6C6C6;
+  padding: 0; }
+  .tabs ul li button:hover {
+    color: #00B1EB; }
+  .tabs ul li button.active {
+    color: #00B1EB !important; }
+
+.blog-cards {
+  margin-top: 40px;
+  margin-bottom: 100px; }
+  .blog-cards .card-item {
+    padding: 40px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px; }
+    .blog-cards .card-item span {
+      color: #C6C6C6;
+      font-size: 18px;
+      font-family: SFPRODISPLAYREGULAR; }
+    .blog-cards .card-item h3 {
+      color: #1E1E1B;
+      font-size: 28px;
+      font-family: SFPRODISPLAYBOLD;
+      margin: 10px 0 20px; }
+    .blog-cards .card-item p {
+      font-size: 15px;
+      color: #1E1E1B;
+      font-family: SFPRODISPLAYREGULAR; }
+    .blog-cards .card-item img {
+      width: 100%; }
+
+.post-single .post-img {
+  margin-bottom: 40px;
+  max-width: 100%; }
+  .post-single .post-img img {
+    width: 100%;
+    height: 593px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+.post-single .post-content {
+  padding: 40px;
+  background-color: #fff; }
+  .post-single .post-content .post-content-item {
+    margin-bottom: 40px; }
+    .post-single .post-content .post-content-item p {
+      margin-bottom: 40px;
+      font-size: 18px;
+      font-family: SFPRODISPLAYREGULAR; }
+    .post-single .post-content .post-content-item img {
+      width: 100%; }
+    .post-single .post-content .post-content-item h3 {
+      color: #1E1E1B;
+      font-size: 28px;
+      font-family: SFPRODISPLAYBOLD; }
+  .post-single .post-content h2 {
+    font-size: 28px;
+    margin: 40px 0; }
+  .post-single .post-content .share-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .post-single .post-content .share-socials p {
+      margin-bottom: 0;
+      margin-right: 15px;
+      font-size: 15px;
+      font-family: SFPRODISPLAYREGULAR;
+      color: #1E1E1B; }
+    .post-single .post-content .share-socials .social-images {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .post-single .post-content .share-socials .social-images img {
+        margin-left: 15px; }
+.post-single .comments {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 100px; }
+  .post-single .comments h2 {
+    color: #1E1E1B;
+    font-size: 28px;
+    font-family: SFPRODISPLAYBOLD;
+    margin-bottom: 30px; }
+  .post-single .comments .comments-text {
+    position: relative; }
+    .post-single .comments .comments-text textarea {
+      width: 100%;
+      background: #F6F6F6;
+      border-radius: 10px;
+      border: none;
+      height: 120px;
+      outline: none;
+      padding-left: 20px;
+      padding-top: 20px; }
+      .post-single .comments .comments-text textarea::-webkit-input-placeholder {
+        color: #C6C6C6;
+        font-size: 14px; }
+      .post-single .comments .comments-text textarea:-ms-input-placeholder {
+        color: #C6C6C6;
+        font-size: 14px; }
+      .post-single .comments .comments-text textarea::-ms-input-placeholder {
+        color: #C6C6C6;
+        font-size: 14px; }
+      .post-single .comments .comments-text textarea::placeholder {
+        color: #C6C6C6;
+        font-size: 14px; }
+    .post-single .comments .comments-text button[type=submit] {
+      position: absolute;
+      left: 20px;
+      bottom: 14px;
+      border: none;
+      background: none;
+      color: #1E1E1B;
+      font-family: SFPRODISPLAYBOLD;
+      font-size: 13px; }
+  .post-single .comments .author {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .post-single .comments .author img {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px; }
+    .post-single .comments .author h4 {
+      font-size: 15px;
+      font-family: SFPRODISPLAYREGULAR;
+      margin-bottom: 5px; }
+    .post-single .comments .author span {
+      color: #C6C6C6;
+      font-size: 13px;
+      font-family: SFPRODISPLAYREGULAR; }
+  .post-single .comments .comment-content {
+    margin-top: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .post-single .comments .comment-content p {
+      color: #000000;
+      font-size: 14px;
+      font-family: SFPRODISPLAYREGULAR;
+      margin-top: 10px; }
+      .post-single .comments .comment-content p span {
+        font-family: SFPRODISPLAYBOLD; }
+    .post-single .comments .comment-content .replay {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .post-single .comments .comment-content .replay .author {
+        margin-left: 10px; }
+    .post-single .comments .comment-content .replay-btn {
+      background: none;
+      border: none;
+      font-family: SFPRODISPLAYBOLD;
+      font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
