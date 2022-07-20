@@ -53,11 +53,8 @@
         border-radius: 10px;
         min-height: 1000px;
         .filterations-item {
-            
-            &:not(:last-child) {
-                border-bottom: 1px solid #E2E2E2;
-                padding: 20px 0;
-            }
+            border-bottom: 1px solid #E2E2E2;
+            padding: 20px 0;
             .dropdown-toggle {
                 display: flex;
                 align-items: center;
@@ -121,24 +118,6 @@
                         color: $LightGrey;
                         font-size: 15px;
                         font-family: SFPRODISPLAYREGULAR;
-                        &.color {
-                           width: 16px;
-                           height: 16px;
-                           border-radius: 50px;
-                           margin-left: 15px;
-                           &.grey {
-                            background: #3C3D3A;
-                           }
-                           &.red {
-                            background: #E4544D;
-                           }
-                           &.green {
-                            background: #AFBFAB;
-                           }
-                           &.white {
-                            border: 1px solid #C6C6C6;;
-                           }
-                        }
                     }
                     
                 }
@@ -147,53 +126,8 @@
                 margin-top: 15px;
                 font-family: SFPRODISPLAYBOLD;
                 color: $LightBlue;
-                display: inline-block;
-            }
-            .form-switch {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding-left: 0;
-
-                &.border-bottom {
-                    border-bottom: 1px solid #E2E2E2 !important;
-                    padding: 20px 0;
-                }
-                &:last-child{
-                   
-                    padding-top: 20px;
-                }
-                label {
-                    font-size: 18px;
-                    font-family: SFPRODISPLAYBOLD;
-                }
-            }
-           
-        }
-        .show-all-filters {
-            margin-bottom: 15px;
-            margin-top: 20px;
-            border: 1px solid;
-            text-align: center;
-            padding: 14px 0;
-            border-radius: 100px;
-            a {
-                font-size: 16px;
-                font-family: SFPRODISPLAYREGULAR;
-                color: $DarkGrey;
-
             }
         }
-        .clean-filters{
-            padding: 14px 0;
-            border-radius: 100px;
-            background-color: $LightBlue;
-            text-align: center;
-            a {
-                font-size: 16px;
-                font-family: SFPRODISPLAYREGULAR;
-                color: $White;
-            }
-        }
+       
     }
 }

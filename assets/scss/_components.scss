@@ -151,7 +151,6 @@
 }
 .slider {
     position: relative;
-    margin-bottom: 100px;
 
     .slick-left-arrow {
         background: #00000080;
@@ -210,7 +209,9 @@
 
 
 //device-repair-banner
-
+.device-repair {
+    
+}
 .device-repair-banner {
     width: 100%;
     min-height: 347px;
@@ -259,6 +260,71 @@
     }
 }
 //device-repair-banner
+
+// catalog-banner
+.catalog-banner{
+    width: 100%;
+    min-height: 347px;
+    height: auto;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: $White;
+    .catalog-banner-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1020px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .catalog-banner-content {
+        margin-left: 89px;
+        p {
+            font-size: 18px;
+            font-family: SFPRODISPLAYBOLD;
+            color: $Black;
+            padding: 0;
+            margin: 0;
+        }
+        h2 {
+            margin: 0px 0 20px;
+            font-family: SFPRODISPLAYBOLD;
+            color: $Black;
+            font-size: 48px;
+        }
+       
+        .catalog-banner-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                padding: 10px 30px;
+                color: $White;
+                font-family: SFPRODISPLAYREGULAR;
+                font-size: 16px;
+                border-radius: 100px;
+                border: none;
+                &:first-child {
+                    background-color: $LightBlue;
+                }
+                &:last-child {
+                    border:1px solid;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+// catalog-banner
+
 .best-offers {
     margin-top: 100px;
 }

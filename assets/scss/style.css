@@ -399,8 +399,7 @@ footer {
   right: -20px; }
 
 .slider {
-  position: relative;
-  margin-bottom: 100px; }
+  position: relative; }
   .slider .slick-left-arrow {
     background: #00000080;
     background-blend-mode: color;
@@ -515,6 +514,75 @@ footer {
         .device-repair-banner .banner-content .banner-links a:first-child {
           background-color: #00B1EB; }
         .device-repair-banner .banner-content .banner-links a:last-child {
+          border: 1px solid;
+          margin-left: 20px; }
+
+.catalog-banner {
+  width: 100%;
+  min-height: 347px;
+  height: auto;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  background-color: #fff; }
+  .catalog-banner .catalog-banner-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    max-width: 1020px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto; }
+  .catalog-banner .catalog-banner-content {
+    margin-left: 89px; }
+    .catalog-banner .catalog-banner-content p {
+      font-size: 18px;
+      font-family: SFPRODISPLAYBOLD;
+      color: #000000;
+      padding: 0;
+      margin: 0; }
+    .catalog-banner .catalog-banner-content h2 {
+      margin: 0px 0 20px;
+      font-family: SFPRODISPLAYBOLD;
+      color: #000000;
+      font-size: 48px; }
+    .catalog-banner .catalog-banner-content .catalog-banner-links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .catalog-banner .catalog-banner-content .catalog-banner-links a {
+        padding: 10px 30px;
+        color: #fff;
+        font-family: SFPRODISPLAYREGULAR;
+        font-size: 16px;
+        border-radius: 100px;
+        border: none; }
+        .catalog-banner .catalog-banner-content .catalog-banner-links a:first-child {
+          background-color: #00B1EB; }
+        .catalog-banner .catalog-banner-content .catalog-banner-links a:last-child {
           border: 1px solid;
           margin-left: 20px; }
 
@@ -710,169 +778,115 @@ v
   background-color: #fff;
   border-radius: 10px;
   min-height: 1000px; }
-  .filter .filterations .filterations-item:not(:last-child) {
+  .filter .filterations .filterations-item {
     border-bottom: 1px solid #E2E2E2;
     padding: 20px 0; }
-  .filter .filterations .filterations-item .dropdown-toggle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    cursor: pointer; }
-    .filter .filterations .filterations-item .dropdown-toggle::after {
-      content: none; }
-    .filter .filterations .filterations-item .dropdown-toggle p {
-      margin: 0;
-      font-size: 18px;
-      font-family: SFPRODISPLAYBOLD;
-      margin-bottom: 15px; }
-  .filter .filterations .filterations-item .drop-down-content input[type=search] {
-    height: 46px;
-    width: 100%;
-    padding-left: 10px;
-    font-size: 15px;
-    font-family: SFPRODISPLAYREGULAR;
-    margin-bottom: 15px;
-    background: #fff;
-    border: 1px solid #C6C6C6;
-    border-radius: 5px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=search]::-webkit-input-placeholder {
-      color: #C6C6C6;
-      font-size: 15px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=search]:-ms-input-placeholder {
-      color: #C6C6C6;
-      font-size: 15px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=search]::-ms-input-placeholder {
-      color: #C6C6C6;
-      font-size: 15px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=search]::placeholder {
-      color: #C6C6C6;
-      font-size: 15px; }
-  .filter .filterations .filterations-item .drop-down-content input[type=number] {
-    width: 100%;
-    height: 46px;
-    border: 1px solid #C6C6C6;
-    border-radius: 5px;
-    padding-left: 15px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=number]:first-child {
-      margin-right: 6px; }
-    .filter .filterations .filterations-item .drop-down-content input[type=number]:last-child {
-      margin-left: 6px; }
-  .filter .filterations .filterations-item .drop-down-content .drop-down-content_item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .filter .filterations .filterations-item .drop-down-content .drop-down-content_item:not(:last-child) {
-      margin-bottom: 17px; }
-    .filter .filterations .filterations-item .drop-down-content .drop-down-content_item p {
-      margin: 0 15px;
+    .filter .filterations .filterations-item .dropdown-toggle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      cursor: pointer; }
+      .filter .filterations .filterations-item .dropdown-toggle::after {
+        content: none; }
+      .filter .filterations .filterations-item .dropdown-toggle p {
+        margin: 0;
+        font-size: 18px;
+        font-family: SFPRODISPLAYBOLD;
+        margin-bottom: 15px; }
+    .filter .filterations .filterations-item .drop-down-content input[type=search] {
+      height: 46px;
+      width: 100%;
+      padding-left: 10px;
       font-size: 15px;
-      font-family: SFPRODISPLAYREGULAR; }
-    .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span {
-      color: #C6C6C6;
-      font-size: 15px;
-      font-family: SFPRODISPLAYREGULAR; }
-      .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span.color {
-        width: 16px;
-        height: 16px;
-        border-radius: 50px;
-        margin-left: 15px; }
-        .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span.color.grey {
-          background: #3C3D3A; }
-        .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span.color.red {
-          background: #E4544D; }
-        .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span.color.green {
-          background: #AFBFAB; }
-        .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span.color.white {
-          border: 1px solid #C6C6C6; }
-  .filter .filterations .filterations-item .show-more {
-    margin-top: 15px;
-    font-family: SFPRODISPLAYBOLD;
-    color: #00B1EB;
-    display: inline-block; }
-  .filter .filterations .filterations-item .form-switch {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 0; }
-    .filter .filterations .filterations-item .form-switch.border-bottom {
-      border-bottom: 1px solid #E2E2E2 !important;
-      padding: 20px 0; }
-    .filter .filterations .filterations-item .form-switch:last-child {
-      padding-top: 20px; }
-    .filter .filterations .filterations-item .form-switch label {
-      font-size: 18px;
-      font-family: SFPRODISPLAYBOLD; }
-  .filter .filterations .show-all-filters {
-    margin-bottom: 15px;
-    margin-top: 20px;
-    border: 1px solid;
-    text-align: center;
-    padding: 14px 0;
-    border-radius: 100px; }
-    .filter .filterations .show-all-filters a {
-      font-size: 16px;
       font-family: SFPRODISPLAYREGULAR;
-      color: #1E1E1B; }
-  .filter .filterations .clean-filters {
-    padding: 14px 0;
-    border-radius: 100px;
-    background-color: #00B1EB;
-    text-align: center; }
-    .filter .filterations .clean-filters a {
-      font-size: 16px;
-      font-family: SFPRODISPLAYREGULAR;
-      color: #fff; }
-
-.about-payment-block {
-  padding: 40px;
-  background-color: #fff;
-  margin-bottom: 100px;
-  border-radius: 10px;
-  max-width: 1060px;
-  width: 100%;
-  margin: 0 15px 100px; }
-  .about-payment-block h2 {
-    color: #1E1E1B;
-    font-family: SFPRODISPLAYREGULAR;
-    font-size: 18px;
-    margin-bottom: 40px; }
-  .about-payment-block .description .desc-item {
-    margin-bottom: 40px; }
-    .about-payment-block .description .desc-item h3 {
-      font-size: 28px;
-      font-family: SFPRODISPLAYBOLD;
-      margin-bottom: 20px;
-      color: #1E1E1B; }
-    .about-payment-block .description .desc-item p {
-      font-size: 18px;
-      font-family: SFPRODISPLAYREGULAR;
-      color: #1E1E1B;
-      margin-bottom: 0; }
-      .about-payment-block .description .desc-item p a {
-        color: #00B1EB; }
-    .about-payment-block .description .desc-item .bank-cards {
+      margin-bottom: 15px;
+      background: #fff;
+      border: 1px solid #C6C6C6;
+      border-radius: 5px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=search]::-webkit-input-placeholder {
+        color: #C6C6C6;
+        font-size: 15px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=search]:-ms-input-placeholder {
+        color: #C6C6C6;
+        font-size: 15px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=search]::-ms-input-placeholder {
+        color: #C6C6C6;
+        font-size: 15px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=search]::placeholder {
+        color: #C6C6C6;
+        font-size: 15px; }
+    .filter .filterations .filterations-item .drop-down-content input[type=number] {
+      width: 100%;
+      height: 46px;
+      border: 1px solid #C6C6C6;
+      border-radius: 5px;
+      padding-left: 15px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=number]:first-child {
+        margin-right: 6px; }
+      .filter .filterations .filterations-item .drop-down-content input[type=number]:last-child {
+        margin-left: 6px; }
+    .filter .filterations .filterations-item .drop-down-content .drop-down-content_item {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .about-payment-block .description .desc-item .bank-cards img {
-        margin-left: 25px; }
+      .filter .filterations .filterations-item .drop-down-content .drop-down-content_item:not(:last-child) {
+        margin-bottom: 17px; }
+      .filter .filterations .filterations-item .drop-down-content .drop-down-content_item p {
+        margin: 0 15px;
+        font-size: 15px;
+        font-family: SFPRODISPLAYREGULAR; }
+      .filter .filterations .filterations-item .drop-down-content .drop-down-content_item span {
+        color: #C6C6C6;
+        font-size: 15px;
+        font-family: SFPRODISPLAYREGULAR; }
+    .filter .filterations .filterations-item .show-more {
+      margin-top: 15px;
+      font-family: SFPRODISPLAYBOLD;
+      color: #00B1EB; }
+
+.credit-page .info-credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 40px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  max-width: 1029px; }
+  .credit-page .info-credit h2 {
+    font-family: SFPRODISPLAYBOLD;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px; }
+.credit-page .info-text {
+  margin: 40px 0; }
+  .credit-page .info-text h3 {
+    font-family: SFPRODISPLAYBOLD;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px; }
+  .credit-page .info-text p {
+    font-family: SFPRODISPLAYREGULAR;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px; }
+.credit-page .device-repair-banner {
+  margin-top: 0; }
 
 /*# sourceMappingURL=style.css.map */
