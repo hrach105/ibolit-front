@@ -1,0 +1,43 @@
+.about-payment-block {
+    padding: 40px;
+    background-color: $White;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 15px 100px ;
+    h2 {
+      color: $DarkGrey;  
+      font-family: SFPRODISPLAYREGULAR;
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    .description {
+        .desc-item {
+            margin-bottom: 40px;
+            h3 {
+                font-size: 28px;
+                font-family: SFPRODISPLAYBOLD;
+                margin-bottom: 20px;
+                color: $DarkGrey;
+            }
+            p {
+                font-size: 18px;
+                font-family: SFPRODISPLAYREGULAR;
+                color: $DarkGrey;
+                margin-bottom: 0;
+                a {
+                    color: $LightBlue;
+                }
+            }
+            .bank-cards {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+
+}
