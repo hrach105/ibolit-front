@@ -45,26 +45,6 @@
                 margin: auto;
             }
         }
-        .slick-dots {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 40px;
-            li {
-                background-color: $LightGrey;
-                width: 75px;
-                height: 4px;
-                border-radius: 5px;
-                &:not(:first-child) {
-                    margin-left: 15px;
-                }
-                &.slick-active {
-                    background-color: $LightBlue;
-                }
-                button {
-                    font-size: 0;
-                  
-                }
-            }
-        }
+        
     }
 }
