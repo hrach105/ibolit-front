@@ -1,0 +1,110 @@
+.favorites-products {
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    h1 {
+      margin-bottom: 0;
+    }
+    .sort-fav-prods {
+      display: flex;
+      align-items: center;
+      select {
+        margin-right: 30px;
+        background: $White;
+        border-radius: 10px;
+        border: none;
+        height: 42px;
+        padding: 0 16px 0 12px;
+        outline: none;
+      }
+      .delete-prods {
+        display: flex;
+        align-items: center;
+        span {
+          font-size: 18px;
+          font-family: SFPRODISPLAYREGULAR;
+          color: $DarkGrey;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .favorite-products-item {
+    display: flex;
+    .product {
+      max-width: 146px;
+      width: 100%;
+      margin-right: 47px;
+    }
+    .product-description {
+      p {
+        color: $Black;
+        font-size: 18px;
+        font-family: SFPRODISPLAYREGULAR;
+        margin-bottom: 20px;
+      }
+
+      .colors {
+        margin-bottom: 23px;
+        .color {
+          &:first-child {
+            border: 1px solid;
+          }
+        }
+      }
+    }
+    .characters {
+      max-width: 194px;
+      width: 100%;
+      margin: 0 auto;
+      p {
+        font-size: 18px;
+        font-family: SFPRODISPLAYREGULAR;
+        color: $DarkGrey;
+        margin-bottom: 15px;
+      }
+      .characters-info {
+        .info-item {
+          list-style-type: none;
+          padding-bottom: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          span {
+            font-size: 13px;
+            font-family: SFPRODISPLAYREGULAR;
+            margin-bottom: 15px;
+            &:first-child {
+              color: #C6C6C6;
+            }
+            &:last-child {
+              color: $Black;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+    .prices {
+      display: flex;
+
+      .old-price {
+        font-size: 15px;
+        color: #C6C6C6;
+        text-decoration: line-through;
+        font-family: SFPRODISPLAYREGULAR;
+      }
+      .new-price {
+        background: #E9EDF7;
+        padding: 2px 8px;
+        font-size: 12px;
+        font-family: SFPRODISPLAYREGULAR;
+      }
+    }
+    .slick-dots {
+        margin-top: 20px;
+    }
+  }
+}

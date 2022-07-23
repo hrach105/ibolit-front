@@ -1,0 +1,61 @@
+.discount-single-page {
+  .single-image {
+    img {
+      width: 100%;
+      min-height: 380px;
+    }
+  }
+  .single-desc {
+    margin-top: 40px;
+    padding: 40px;
+    background: $White;
+    border-radius: 10px;
+    p {
+      font-size: 18px;
+      font-family: SFPRODISPLAYREGULAR;
+      margin: 0;
+       a {
+         color: $LightBlue;
+       }
+    }
+    h3 {
+      font-family: SFPRODISPLAYBOLD;
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .discount-card-item {
+    margin: 0 6px;
+  }
+  .discount-date {
+    padding: 30px 30px 0 30px;
+    background: $White;
+    min-height: 380px;
+    border-radius: 10px;
+    .discount-date-item {
+      h2 {
+        font-size: 28px;
+        font-family: SFPRODISPLAYBOLD;
+        color: $DarkGrey;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        font-family: SFPRODISPLAYREGULAR;
+        color: $LightBlue;
+        margin: 0;
+      }
+      &:first-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+.other-discounts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .slick-dots {
+    margin-top: 40px;
+  }
+}

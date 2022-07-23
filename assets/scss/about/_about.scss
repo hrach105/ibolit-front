@@ -1,0 +1,116 @@
+.about-slider {
+  padding: 40px;
+  background: $White;
+  border-radius: 10px;
+  .slider-for {
+    margin-bottom: 10px;
+  }
+ .slider-nav {
+   margin-top: 10px;
+   .slider-item {
+     img {
+       width: 142px;
+     }
+   }
+ }
+  .content {
+    margin-top: 40px;
+    p {
+      font-size: 18px;
+      color: $DarkGrey;
+      font-family: SFPRODISPLAYREGULAR;
+    }
+  }
+
+}
+.about-desc {
+  padding: 40px;
+  background: $White;
+  border-radius: 10px;
+  .heading {
+    p {
+
+    }
+  }
+  .blocks {
+    margin-top: 40px;
+    .block-item {
+      h4 {
+        font-size: 48px;
+        color: $LightBlue;
+        margin-bottom: 10px;
+        font-family: SFPRODISPLAYBOLD;
+      }
+      p {
+        font-size: 15px;
+        font-family: SFPRODISPLAYREGULAR;
+      }
+    }
+  }
+}
+.work-with-me {
+  margin-top: 25px;
+  padding: 40px;
+  background: $White;
+  border-radius: 10px;
+  h4 {
+    font-size: 28px;
+    font-family: SFPRODISPLAYBOLD;
+    margin-bottom: 40px;
+    color: $DarkGrey;
+  }
+  p {
+    font-size: 18px;
+    font-family: SFPRODISPLAYREGULAR;
+    color: $DarkGrey;
+    margin-bottom: 0;
+  }
+  a {
+    font-size: 16px;
+    font-family: SFPRODISPLAYREGULAR;
+    color: $White;
+    padding: 10px 30px;
+    background: $LightBlue;
+    margin-top: 40px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+}
+
+.go-catalog-banner {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  background: $White;
+  border-radius: 10px;
+  .go-catalog-banner-inner{
+    max-width: 1040px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    padding-top: 42px;
+    p {
+      font-size: 18px;
+      font-family: SFPRODISPLAYBOLD;
+      color: $DarkGrey;
+    }
+    h3 {
+      padding-top: 10px;
+      font-family: SFPRODISPLAYBOLD;
+      font-size: 48px;
+      color: $DarkGrey;
+    }
+    a {
+      font-family: SFPRODISPLAYREGULAR;
+      color: $White;
+      font-size: 16px;
+      margin-top: 30px;
+      background: $LightBlue;
+      padding: 10px 30px;
+      border-radius: 50px;
+      display: inline-block;
+    }
+  }
+}
